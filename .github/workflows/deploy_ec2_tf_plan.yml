@@ -82,9 +82,7 @@ jobs:
             })
 
 
-
-
-jobs: 
+            
   plan-prod:
     name: 'terraform plan prod'
     runs-on: ubuntu-latest
