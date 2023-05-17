@@ -1,4 +1,4 @@
-name: create terraform plan into ec2
+name: create terraform plan ec2
 
 on:
   pull_request:
