@@ -1,4 +1,4 @@
-name: "Deploy SSM"
+name: "Deploy-SSM"
 on:
   push:
     branches:
@@ -27,7 +27,7 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE }}
           aws-region: ${{ secrets.AWS_REGION }}
-          role-session-name: github-actions-aws-tfstates-role
+          role-session-name: github-actions-aws-tfstates-v1-role
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
